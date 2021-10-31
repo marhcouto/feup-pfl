@@ -1,0 +1,9 @@
+(a) [a] -> a
+(b) (a,b) -> (b,a)
+(c) a -> b -> (a,b)
+(d) Num a => a -> a -> a
+(e) Fractional a => a -> a -> a
+(f) Char -> Bool
+(g) Ord a => a -> a -> a -> Bool
+(h) Eq => [a] -> Bool
+(i) (a -> a) -> a -> a
