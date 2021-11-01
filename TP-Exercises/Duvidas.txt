@@ -2,3 +2,4 @@ Page 6 thought
 IN-5 result c
 IN-6 solution a
 Put (Eq a, Num a) => for what??
+IN-18 types are weird
