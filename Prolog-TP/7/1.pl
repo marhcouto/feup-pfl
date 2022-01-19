@@ -42,3 +42,18 @@ isPrime(X):- N is X - 1, \+ isPrimeAux(X,N).
 
 isPrimeAux(X,N):- N > 1, X rem N =:= 0.
 isPrimeAux(X,N):- N > 1, N1 is N - 1, isPrimeAux(X,N1).
+
+
+% Extra
+
+invert([],[]).
+invert([H|T], Rev):-
+    invert(T,TRev),
+    append(TRev,[H],Rev).
+
+invert2(L,Rev):-
+    invert2_aux(L,[],Rev).
+
+invert2_aux([],L,L).
+invert2_aux([H|T],Acc,L):-
+    invert2_aux(T,[H|Acc],L).
