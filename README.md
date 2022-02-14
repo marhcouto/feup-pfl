@@ -5,5 +5,7 @@
 
 **CONTENTS:**
 - Practical classes solved and commented
+- Pratical works 
+- Exam solutions
 
-**FINAL GRADE:** -
+**FINAL GRADE:** - 18
